@@ -1,5 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&display=swap');
 
-.text {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     font-family: "Reddit Mono";
+}
+.header {
+    width: 100%;
+    background-color: #FF8C00;
+    flex-grow: 1;
+    display: flex;
+    padding: 10px 50px;
+}
+
+.info {
+    width: 100%;
+    background-color: #F8F8FF;
+}
+
+.quote {
+    width: 100%;
+    background-color: #FFD700;
+}
+
+.footer {
+    width: 100%;
+    background-color: #0096D6;
+}
+
+#img_logo {
+    width: 50px;
+    height: auto;
+}
+
+#main_img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo div {
+    font-size: 32px;
+    font-weight: 900;
+    color: #FFD700;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFD700;
+}
+
+.main {
+    display: flex;
+    background-color: #FF8C00;
+    padding: 10px 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 5px;
+}
+
+div h1 {
+    color: #FFD700;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.subtext {
+    color: #F8F8FF;
+    font-size: 16px;
+    margin: 15px 0px;
+}
+.splash_img {
+    margin-left: auto;
+    margin-right: 0;
+}
+.button {
+    align-self: center;
+}
+button {
+    height: 50px;
+    width: 120px;
+    background-color: #FFD700;
+    color: #FF8C00;
+    font-size: 28px;
+    border-radius: 20px;
+    border: none;
 }
