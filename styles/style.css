@@ -39,7 +39,16 @@ body {
 
 .footer {
     width: 100%;
+    height: 80px;
     background-color: #0096D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    font-size: 18px;
+    font-weight: 500;
 }
 
 #img_logo {
@@ -200,3 +209,4 @@ div h1 {
     color: #FF8C00;
     margin-bottom: 14px;
 }
+
