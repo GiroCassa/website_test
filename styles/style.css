@@ -83,10 +83,17 @@ body {
 .links {
     display: flex;
     gap: 25px;
+}
+
+.links li {
     list-style-type: none;
+}
+
+.links li a{
     font-size: 24px;
     font-weight: 700;
     color: #FFD700;
+    text-decoration: none;
 }
 
 .main {
